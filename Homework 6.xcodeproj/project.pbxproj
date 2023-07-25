@@ -13,6 +13,8 @@
 		65FF95DC2A681BA1007808AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FF95DA2A681BA1007808AB /* Main.storyboard */; };
 		65FF95DE2A681BA2007808AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65FF95DD2A681BA2007808AB /* Assets.xcassets */; };
 		65FF95E12A681BA2007808AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FF95DF2A681BA2007808AB /* LaunchScreen.storyboard */; };
+		65FF95E92A681BFB007808AB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FF95E82A681BFB007808AB /* LoginViewController.swift */; };
+		65FF95EB2A681C29007808AB /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FF95EA2A681C29007808AB /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		65FF95DD2A681BA2007808AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65FF95E02A681BA2007808AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65FF95E22A681BA2007808AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65FF95E82A681BFB007808AB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		65FF95EA2A681C29007808AB /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				65FF95D62A681BA1007808AB /* SceneDelegate.swift */,
 				65FF95D82A681BA1007808AB /* ViewController.swift */,
 				65FF95DA2A681BA1007808AB /* Main.storyboard */,
+				65FF95E82A681BFB007808AB /* LoginViewController.swift */,
+				65FF95EA2A681C29007808AB /* WelcomeViewController.swift */,
 				65FF95DD2A681BA2007808AB /* Assets.xcassets */,
 				65FF95DF2A681BA2007808AB /* LaunchScreen.storyboard */,
 				65FF95E22A681BA2007808AB /* Info.plist */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65FF95E92A681BFB007808AB /* LoginViewController.swift in Sources */,
+				65FF95EB2A681C29007808AB /* WelcomeViewController.swift in Sources */,
 				65FF95D92A681BA1007808AB /* ViewController.swift in Sources */,
 				65FF95D52A681BA1007808AB /* AppDelegate.swift in Sources */,
 				65FF95D72A681BA1007808AB /* SceneDelegate.swift in Sources */,
@@ -301,9 +309,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.icodeschool.Homework-6";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -328,9 +339,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.icodeschool.Homework-6";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
